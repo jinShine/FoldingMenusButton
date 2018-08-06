@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "jinShine" => "seungjin429@naver.com" }
   s.ios.deployment_target = "10.0"
-  s.source       = { :git => "https://github.com/jinShine/FoldingMenusButton.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/jinShine/FoldingMenusButton.git", :tag => s.version.to_s }
   s.source_files  = "Sources/*.swift"
   s.requires_arc = true
 end

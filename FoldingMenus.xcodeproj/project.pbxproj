@@ -35,6 +35,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1589C43C21181388003F224D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				15FB4EA42104E4C90071F8E2 /* FoldingMenusViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		15FB4E862104E4AB0071F8E2 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +62,8 @@
 		15FB4E912104E4AB0071F8E2 /* FoldingMenus */ = {
 			isa = PBXGroup;
 			children = (
+				1589C43C21181388003F224D /* Sources */,
 				15FB4E922104E4AC0071F8E2 /* AppDelegate.swift */,
-				15FB4EA42104E4C90071F8E2 /* FoldingMenusViewController.swift */,
 				15FB4E962104E4AC0071F8E2 /* Main.storyboard */,
 				15FB4E992104E4AD0071F8E2 /* Assets.xcassets */,
 				15FB4E9B2104E4AD0071F8E2 /* LaunchScreen.storyboard */,
